@@ -1,0 +1,35 @@
+@import url(style.css);
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 4em;
+    width: 100%;
+    line-height: 70px;
+}
+
+a {
+    margin: 0;
+    width: 150px;
+}
+
+.left-part, .right-part {
+    width: 30%;
+    margin: 5%;
+}
+
+
+.flex-items{
+    width: 100%;
+    margin: 5% 0 0 0;
+    justify-content: space-between;
+}

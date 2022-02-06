@@ -1,0 +1,53 @@
+@import url(style.css);
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 70px;
+}
+
+a {
+  margin: 0;
+  width: 190px;
+}
+
+body > .left-part {
+  display: none;
+}
+
+.right-part {
+  width: 90%;
+  padding: 2% 4%;
+}
+
+.flex-items{
+  width: 100%;
+  margin: 2% 0 0 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-items > * {
+  width: 40%;
+}
+
+#logo {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.flex-items button {
+  width: 20%;
+  margin: 0 2% 10px 0;
+}

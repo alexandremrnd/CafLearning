@@ -1,0 +1,41 @@
+@import url(style.css);
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 70px;
+}
+
+a {
+  margin: 0;
+  width: 190px;
+}
+
+.left-part, .right-part {
+  width: 36%;
+  margin: 5%;
+}
+
+.right-part {
+  width: 350px;
+}
+.flex-items{
+  width: 100%;
+  margin: 5% 0 0 0;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  margin: 40px 0 10px 0;
+}
