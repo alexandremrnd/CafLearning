@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en">
 
 <head>
     <title>CafLearning - Connexion</title>
@@ -14,10 +14,6 @@
 
 <body>
 
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
 
     <?php
     if (isset($_SESSION['mail'])) {
@@ -43,7 +39,7 @@
             <div class="right-part">
             <h1>Connectez-vous</h1>
                     <p>Connectez-vous avec les identifiants fournis par votre responsable pédagogique. </p>
-                <form method="POST" action="login.php">
+                <form method="POST" action="login_action.php">
                     
 
                     <label for="username">Identifiant</label>
@@ -52,13 +48,13 @@
                     <label for="password">Mot de Passe</label>
                     <input type="password" placeholder="Mot de passe" id="password" name="password" required>
 
-                    <p id="forget-id">Identifiant / mot de passe oublié ?</p>
+                    <p id="forget-id"><a href="forget_id.php">Identifiant / mot de passe oublié ?</a></p>
 
                     <button name="submit">Connexion</button>
 
                     <div class="change-wtc">
                         <p>Pas de compte ? </p>
-                        <p>Inscrivez-vous</p>
+                        <p><a href="signup.php">Inscrivez-vous</a></p>
                     </div>
 
                 </form>

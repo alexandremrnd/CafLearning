@@ -14,11 +14,6 @@
 
 <body>
 
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-
     <?php
     if (isset($_SESSION['mail'])) {
     ?>
@@ -38,6 +33,10 @@
                 <h1>
                     Plus que quelques formalités...
                 </h1>
+
+            </div>
+
+            
 
             </div>
 
@@ -67,10 +66,10 @@
                             <p>Afin de mieux traiter votre demande et de vous identifier, ces informations personnelles doivent être rennsignées avec soin.</p>
 
                             <label for="firstname">Prénom</label>
-                            <input type="text" placeholder="John" id="firstname" name="fisrtname" required>
+                            <input type="text" placeholder="John" id="firstname" name="firstname" required>
 
-                            <label for="name">Nom</label>
-                            <input type="name" placeholder="Doe" id="name" name="name" required>
+                            <label for="text">Nom</label>
+                            <input type="text" placeholder="Doe" id="name" name="name" required>
                         </div>
                     </div>
 
@@ -79,7 +78,7 @@
 
                         <div class="change-wtc">
                             <p>Déjà titulaire d'un compte ? </p>
-                            <p>Connectez-vous</p>
+                            <p><a href="login.php">Connectez-vous</a></p>
                         </div>
                         <button name="submit">S'inscrire</button>
 

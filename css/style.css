@@ -38,6 +38,23 @@ button, a{
     font-family: 'Poppins', sans-serif;
 }
 
+p > a {
+    background-color: transparent;
+    padding: 0;
+    color: #19285C;
+    width: max-content;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+p > a:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+
 
 button:hover, a:hover{
     background-color: #d4ddff;
@@ -149,6 +166,12 @@ input {
 
 .change-wtc p:first-child {
     margin-left: 0;
+    padding-top: 5px;
     font-weight: 400;
     color: #9190B8;
+}
+
+.important-text {
+    color: #19285C;
+    font-weight: 600;
 }
